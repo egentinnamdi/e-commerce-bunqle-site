@@ -6,10 +6,8 @@ import { Icons } from "./Navigation/MiddleNav/Icons";
 export const NavigationScreen = () => {
   return (
     <div className=" inline-flex flex-col items-start relative  ">
-
-      <Widget className=""/>
-      <Navigation  />
-
+      <Widget className="" />
+      <Navigation />
     </div>
   );
 };

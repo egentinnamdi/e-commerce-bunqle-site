@@ -16,6 +16,7 @@ module.exports = {
         "gray-900": "var(--gray-900)",
         "primary-500": "var(--primary-500)",
         "warning-400": "var(--warning-400)",
+        "primary-green": "#00A218",
       },
       fontFamily: {
         "body-large-400": "var(--body-large-400-font-family)",
