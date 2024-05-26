@@ -2,11 +2,13 @@ import React from "react";
 import image1 from "../assets/image-3.png";
 import image2 from "../assets/image-4.png";
 import image3 from "../assets/image-5.png";
-export const BestSellers = () => {
+
+export const BestSellers = ({name}) => {
+
   return (
     <div className="inline-flex flex-col items-start gap-[16px] relative">
       <div className="relative w-[312px] mt-[-1.00px] font-body-medium-600 font-[number:var(--body-medium-600-font-weight)] text-gray-900 text-[length:var(--body-medium-600-font-size)] tracking-[var(--body-medium-600-letter-spacing)] leading-[var(--body-medium-600-line-height)] [font-style:var(--body-medium-600-font-style)]">
-        PRODUCT ACCESSORIES
+        {name}
       </div>
       <div className="inline-flex items-center justify-center gap-[12px] p-[12px] relative flex-[0_0_auto] bg-gray-00 rounded-[3px] border border-solid border-[#e4e7e9]">
         <img className="relative w-[80px] h-[80px] object-cover" alt="Image" src={image1} />
