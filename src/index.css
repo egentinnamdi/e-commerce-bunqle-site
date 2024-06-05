@@ -6,4 +6,7 @@
   .pry-padding {
     padding: 20px;
   }
+  .breadcrumb-class {
+    @apply relative w-fit mt-[-1.00px] font-body-small-400 font-[number:var(--body-small-400-font-weight)]  text-[length:var(--body-small-400-font-size)] tracking-[var(--body-small-400-letter-spacing)] leading-[var(--body-small-400-line-height)] whitespace-nowrap  [font-style:var(--body-small-400-font-style)];
+  }
 }

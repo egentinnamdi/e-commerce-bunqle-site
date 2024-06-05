@@ -4,7 +4,7 @@ import bunqle from "../08_Product_Detail/assets/bunq-white-1.png";
 function Navbar({ handleOpen }) {
   return (
     <div className="flex justify-around items-center">
-      <div onClick={handleOpen}>
+      <div className="cursor-pointer " onClick={handleOpen}>
         <img src={hamburger} alt="hamburger" />
       </div>
       <div>

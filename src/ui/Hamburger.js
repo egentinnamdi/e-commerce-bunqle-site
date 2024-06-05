@@ -16,11 +16,13 @@ const categories = [
 ];
 
 function Hamburger({ isOpen, handleOpen }) {
+ 
   return (
+    // <div className="w-full h-full ">
     <div
       className={`${
         isOpen ? "translate-x-0" : "translate-x-[-100%]"
-      } transition-all duration-500  ease-in-out pl-5 uppercase text-white min-h-96 absolute z-1 bg-primary-green top-0 left-0 w-1/4`}
+      } transition-all duration-500  ease-in-out pl-5 uppercase text-white min-h-96  bg-primary-green  w-1/4 absolute z-1 top-0 left-0 `}
     >
       <h1 className="relative font-semibold text-2xl">
         shop by department{" "}
@@ -37,6 +39,7 @@ function Hamburger({ isOpen, handleOpen }) {
         </p>
       ))}
     </div>
+    // </div>
   );
 }
 

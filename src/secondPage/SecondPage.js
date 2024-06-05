@@ -9,10 +9,15 @@ function SecondPage() {
 
   function handleOpen() {
     setIsOpen((prev) => !prev);
+    console.log(isOpen);
+  }
+
+  function handleKeyDown(e) {
+    console.log(e);
   }
 
   return (
-    <>
+    <div onKeyUp={handleKeyDown}>
       <Hamburger isOpen={isOpen} handleOpen={handleOpen} />
       <div className="grid  grid-rows-[201px_520px_1040px] pry-padding min-h-screen gap-y-10">
         <Navbar handleOpen={handleOpen} />
@@ -20,7 +25,7 @@ function SecondPage() {
 
         <div className="bg-green-500">hello world</div>
       </div>
-    </>
+    </div>
   );
 }
 
