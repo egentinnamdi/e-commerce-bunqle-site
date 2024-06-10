@@ -9,7 +9,7 @@ export const ProductsScreen = () => {
   return (
     <div className="inline-flex items-center justify-center gap-[24px] px-[300px] py-[72px] relative">
       <FlashSaleToday />
-      <BestSellers />
+      <BestSellers  name = "PRODUCT ACCESSORIES" />
       <NewArrival />
       <TopRated />
     </div>
