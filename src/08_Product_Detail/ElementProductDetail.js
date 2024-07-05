@@ -10,7 +10,7 @@ import { ProductDetailScreen } from "./ProductDetailWrapper/ProductDetail";
 
 const ElementProductDetail = () => {
   return (
-    <div className="inline-flex flex-col h-[2504px] items-center justify-center relative bg-white overflow-hidden">
+    <div className="flex flex-col h-full w-full  items-center justify-cente bg-white">
       <NavigationScreen />
       <Breadcrumb />
       <ProductDetailScreen />
